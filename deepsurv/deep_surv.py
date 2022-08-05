@@ -11,7 +11,7 @@ import theano.tensor as T
 
 from lifelines.utils import concordance_index
 
-from .deepsurv_logger import DeepSurvLogger
+from deepsurv_logger import DeepSurvLogger
 
 from lasagne.regularization import regularize_layer_params, l1, l2
 from lasagne.nonlinearities import rectify,selu

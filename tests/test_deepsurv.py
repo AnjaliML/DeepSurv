@@ -63,7 +63,7 @@ class TestDeepSurvTrain():
 
     def test_train(self):
         # Test if network has undefined parameters
-        if sys.version_info.major == 2
+        if sys.version_info.major == 2:
             assert self.log.has_key('best_params') == True
         else:
             assert 'best_params' in self.log.keys()
